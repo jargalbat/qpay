@@ -41,5 +41,19 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+
+	<!-- QPay -->
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>ckbank</string>
+		<string>khanbank</string>
+		<string>most</string>
+		<string>nibank</string>
+		<string>statebank</string>
+		<string>tdbbank</string>
+		<string>ubcbank</string>
+		<string>xacbank</string>
+		<string>tridumpass</string>
+	</array>
 </dict>
 </plist>
