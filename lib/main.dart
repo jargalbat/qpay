@@ -45,7 +45,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          _openDeepLink('khanbank://q?qPay_QRcode=7729010259415096644150863802398062&object_type=&object_id=');
+          _openDeepLink('http://qpay.mn/q/?q=7729010259415096644150863802398062');
+        //  _openDeepLink('khanbank://q?qPay_QRcode=7729010259415096644150863802398062&object_type=&object_id=');
         },
         child: Icon(Icons.qr_code),
       ), //
